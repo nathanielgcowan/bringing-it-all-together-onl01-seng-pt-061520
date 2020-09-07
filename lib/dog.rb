@@ -63,7 +63,6 @@ class Dog
         DB[:conn].execute("SELECT last_insert_rowid() FROM dogs")
       end
       self
-    end
   end
   
 end 
